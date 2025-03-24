@@ -82,7 +82,7 @@
 *                                    *
 *     COMPTE : {_numéro,-22}*
 *     Solde : {_solde,-23:C2}*
-*     De : {_détenteur,-24}  *
+*     De : {Détenteur,-24}  *
 *     STATUT : {_statut,-22}*
 *                                    *
 **************************************

@@ -16,3 +16,4 @@ C:\Users\samue\source\repos\2A6_Banque_2025\ConsoleTesterCompte\obj\Debug\net8.0
 C:\Users\samue\source\repos\2A6_Banque_2025\ConsoleTesterCompte\obj\Debug\net8.0\ConsoleTesterCompte.pdb
 C:\Users\samue\source\repos\2A6_Banque_2025\ConsoleTesterCompte\obj\Debug\net8.0\ConsoleTesterCompte.genruntimeconfig.cache
 C:\Users\samue\source\repos\2A6_Banque_2025\ConsoleTesterCompte\obj\Debug\net8.0\ref\ConsoleTesterCompte.dll
+C:\Users\samue\source\repos\2A6_Banque_2025\ConsoleTesterCompte\obj\Debug\net8.0\ConsoleTesterCompte.sourcelink.json

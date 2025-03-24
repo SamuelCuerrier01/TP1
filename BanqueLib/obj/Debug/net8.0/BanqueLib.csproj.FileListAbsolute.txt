@@ -9,3 +9,4 @@ C:\Users\samue\source\repos\2A6_Banque_2025\BanqueLib\obj\Debug\net8.0\BanqueLib
 C:\Users\samue\source\repos\2A6_Banque_2025\BanqueLib\obj\Debug\net8.0\refint\BanqueLib.dll
 C:\Users\samue\source\repos\2A6_Banque_2025\BanqueLib\obj\Debug\net8.0\BanqueLib.pdb
 C:\Users\samue\source\repos\2A6_Banque_2025\BanqueLib\obj\Debug\net8.0\ref\BanqueLib.dll
+C:\Users\samue\source\repos\2A6_Banque_2025\BanqueLib\obj\Debug\net8.0\BanqueLib.sourcelink.json

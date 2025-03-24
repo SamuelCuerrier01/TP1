@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\samue\\source\\repos\\2A6_Banque_2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E826BC58-5FFD-47BC-946C-4967CCDD5A8A}|ConsoleTesterCompte\\ConsoleTesterCompte.csproj|c:\\users\\samue\\source\\repos\\2a6_banque_2025\\consoletestercompte\\consoletestercompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E826BC58-5FFD-47BC-946C-4967CCDD5A8A}|ConsoleTesterCompte\\ConsoleTesterCompte.csproj|solutionrelative:consoletestercompte\\consoletestercompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8905ABEE-7366-4B27-BC40-E541BA004ECC}|ConsoleSimulerCompte\\ConsoleSimulerCompte.csproj|c:\\users\\samue\\source\\repos\\2a6_banque_2025\\consolesimulercompte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8905ABEE-7366-4B27-BC40-E541BA004ECC}|ConsoleSimulerCompte\\ConsoleSimulerCompte.csproj|solutionrelative:consolesimulercompte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27EE6C08-D7D9-4203-9635-91AB96AA4220}|BanqueLib\\BanqueLib.csproj|c:\\users\\samue\\source\\repos\\2a6_banque_2025\\banquelib\\compte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27EE6C08-D7D9-4203-9635-91AB96AA4220}|BanqueLib\\BanqueLib.csproj|solutionrelative:banquelib\\compte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27EE6C08-D7D9-4203-9635-91AB96AA4220}|BanqueLib\\BanqueLib.csproj|c:\\users\\samue\\source\\repos\\2a6_banque_2025\\banquelib\\banquelib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{27EE6C08-D7D9-4203-9635-91AB96AA4220}|BanqueLib\\BanqueLib.csproj|solutionrelative:banquelib\\banquelib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E826BC58-5FFD-47BC-946C-4967CCDD5A8A}|ConsoleTesterCompte\\ConsoleTesterCompte.csproj|c:\\users\\samue\\source\\repos\\2a6_banque_2025\\consoletestercompte\\consoletestercompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E826BC58-5FFD-47BC-946C-4967CCDD5A8A}|ConsoleTesterCompte\\ConsoleTesterCompte.csproj|solutionrelative:consoletestercompte\\consoletestercompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,6 +25,27 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\2A6_Banque_2025\\ConsoleSimulerCompte\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleSimulerCompte\\Program.cs",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\2A6_Banque_2025\\ConsoleSimulerCompte\\Program.cs",
+              "RelativeToolTip": "ConsoleSimulerCompte\\Program.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAAJgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:01:06.951Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Compte.cs",
@@ -32,34 +53,22 @@
               "RelativeDocumentMoniker": "BanqueLib\\Compte.cs",
               "ToolTip": "C:\\Users\\samue\\source\\repos\\2A6_Banque_2025\\BanqueLib\\Compte.cs",
               "RelativeToolTip": "BanqueLib\\Compte.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAAAJAAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAQwHwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:16:31.533Z",
-              "IsPinned": true
+              "WhenOpened": "2025-03-24T15:58:12.044Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BanqueLib.csproj",
-              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\2A6_Banque_2025\\BanqueLib\\BanqueLib.csproj",
-              "RelativeDocumentMoniker": "BanqueLib\\BanqueLib.csproj",
-              "ToolTip": "C:\\Users\\samue\\source\\repos\\2A6_Banque_2025\\BanqueLib\\BanqueLib.csproj",
-              "RelativeToolTip": "BanqueLib\\BanqueLib.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-19T19:09:53.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ConsoleTesterCompte.cs",
               "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\2A6_Banque_2025\\ConsoleTesterCompte\\ConsoleTesterCompte.cs",
               "RelativeDocumentMoniker": "ConsoleTesterCompte\\ConsoleTesterCompte.cs",
               "ToolTip": "C:\\Users\\samue\\source\\repos\\2A6_Banque_2025\\ConsoleTesterCompte\\ConsoleTesterCompte.cs",
               "RelativeToolTip": "ConsoleTesterCompte\\ConsoleTesterCompte.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAIwK8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T18:37:32.135Z",
+              "WhenOpened": "2025-03-24T15:55:23.042Z",
               "EditorCaption": ""
             }
           ]
