@@ -1,4 +1,6 @@
-﻿namespace BanqueLib
+﻿using System.Text.Json.Serialization;
+
+namespace BanqueLib
 {
     public enum StatutCompte {Ok, Gelé}
 
@@ -13,6 +15,7 @@
         #endregion
 
         #region -----constructeurs-----
+        [JsonConstructor]
         public Compte(int numéro, string détenteur, decimal solde,StatutCompte statut)
         {
             if (numéro < 0)

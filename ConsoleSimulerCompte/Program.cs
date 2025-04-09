@@ -1,5 +1,6 @@
 ﻿using BanqueLib;
 using System.Data;
+using System.Text.Json;
 
 namespace ConsoleSimulerCompte
 {
@@ -8,7 +9,7 @@ namespace ConsoleSimulerCompte
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            var compte = new Compte(rnd.Next(100, 999), "Samuel Cuerrier");
+            var compte = ChargerCompte();
             while (true)
             {
 
@@ -60,7 +61,7 @@ namespace ConsoleSimulerCompte
                             }
                             break;
                         }
-                    case '4': // Déposer
+                    case '4': 
                         {
                             decimal retrait = Math.Round((decimal)(rnd.NextDouble() * (99.99 - 0.01) + 0.01), 2);
                             if (compte.PeutRetirer(retrait))
@@ -73,7 +74,7 @@ namespace ConsoleSimulerCompte
                             }
                                 break;
                         }
-                    case '5': // Retirer
+                    case '5': 
                         {
                             decimal dépot = Math.Round((decimal)(rnd.NextDouble() * (99.99 - 0.01) + 0.01), 2);
                             if (!compte._estGelé)
@@ -87,7 +88,7 @@ namespace ConsoleSimulerCompte
                             }
                         }
                         break;
-                    case '6': // Vider
+                    case '6':
                         {
                             decimal retrait = Math.Round((decimal)(rnd.NextDouble() * (99.99 - 0.01) + 0.01), 2);
                             if (compte.PeutRetirer(retrait))
@@ -114,7 +115,7 @@ namespace ConsoleSimulerCompte
                             }
                         }
                         break;
-                    case '8': // getters
+                    case '8':
                         {
                             if (compte._estGelé)
                             {
@@ -128,7 +129,7 @@ namespace ConsoleSimulerCompte
                             }
                             break;
                         }
-                    case '9': // setters
+                    case '9': 
                         {
                             if (!compte._estGelé)
                             {
@@ -145,9 +146,11 @@ namespace ConsoleSimulerCompte
 
                     case 'q':
                         {
-                            Environment.Exit(0); break;
+                            SauvegarderCompte(compte);
+                            Environment.Exit(0);
+                            break;
                         }
-                    case 'r':  // erreurs de constructions
+                    case 'r':
                         {
                             compte = new Compte(rnd.Next(100, 999), "Samuel Cuerrier");
                             Console.WriteLine("un nouveau compte a été créer");
@@ -159,6 +162,33 @@ namespace ConsoleSimulerCompte
                     Console.WriteLine("\n Appuyer sur ENTER pour continuer...");
                 Console.ReadLine();
             }
+            
+
         }
+
+        static void SauvegarderCompte(Compte compte)
+        {
+            File.WriteAllText("Compte.json", JsonSerializer.Serialize(new
+            {
+                compte._numéro,
+                compte._estGelé,
+                compte.Détenteur,
+                compte._solde,
+                Statut = (int)compte._statut
+            }, new JsonSerializerOptions { WriteIndented = true }));
+        }
+        static Compte ChargerCompte()
+        {
+            var json = File.ReadAllText("Compte.json");
+            var document = JsonDocument.Parse(json);
+            var root = document.RootElement;
+            int numéro = root.GetProperty("_numéro").GetInt32();
+            string détenteur = root.GetProperty("Détenteur").GetString() ?? string.Empty;
+            decimal solde = root.GetProperty("_solde").GetDecimal();
+            StatutCompte statut = (StatutCompte)root.GetProperty("Statut").GetInt32();
+            bool estGelé = root.GetProperty("_estGelé").GetBoolean();
+            return new Compte(numéro, détenteur, solde, statut) { _estGelé = estGelé };
+        }
+
     }
 }

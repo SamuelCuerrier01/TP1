@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,6 +33,10 @@
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
@@ -40,7 +44,7 @@
               "RelativeDocumentMoniker": "ConsoleSimulerCompte\\Program.cs",
               "ToolTip": "C:\\Users\\samue\\source\\repos\\2A6_Banque_2025\\ConsoleSimulerCompte\\Program.cs",
               "RelativeToolTip": "ConsoleSimulerCompte\\Program.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAAAJgAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T16:01:06.951Z",
               "EditorCaption": ""
@@ -53,7 +57,7 @@
               "RelativeDocumentMoniker": "BanqueLib\\Compte.cs",
               "ToolTip": "C:\\Users\\samue\\source\\repos\\2A6_Banque_2025\\BanqueLib\\Compte.cs",
               "RelativeToolTip": "BanqueLib\\Compte.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAQwHwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAcwJsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T15:58:12.044Z",
               "EditorCaption": ""
@@ -68,8 +72,7 @@
               "RelativeToolTip": "ConsoleTesterCompte\\ConsoleTesterCompte.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAAADQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:55:23.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T15:55:23.042Z"
             }
           ]
         }
